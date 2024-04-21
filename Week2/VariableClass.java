@@ -31,3 +31,4 @@ public class VariableClass {
         /*Non primitive Data type */
 
     }
+}
