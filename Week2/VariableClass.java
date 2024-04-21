@@ -9,12 +9,12 @@ public class VariableClass {
      * access Class
      * =Is shared with other object
      */
-    static int staticvariable = 2000;
+    static int staticVariable = 2000;
     public static void main(String[] args) {
         /*Non primitive data type
          * Declaration
          */
-        byte bytevalue;
+        byte byteValue;
         /* Declaration and initialization */
         short shortValue = 100;
         /* Multiple Declaration */
@@ -55,7 +55,7 @@ From smaller type to larger type/
       double intValueConvertedToDouble = intValueConvert;
       / Explicit type casting (manual)
 From larger type to smaller type*/
-    double
+    
 
     }
 }

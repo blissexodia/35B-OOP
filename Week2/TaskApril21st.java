@@ -14,6 +14,9 @@ package Week2;
 import java.util.Scanner;
 
 public class TaskApril21st {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         // Create a new scanner object/variable scan1
         Scanner scan1 = new Scanner(System.in);
