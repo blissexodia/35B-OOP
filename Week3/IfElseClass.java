@@ -32,7 +32,21 @@ public class IfElseClass {
         }else if(num1 == num2){
             System.out.println("Equal");
         }else{
-            System.out.println("Defailt Statement");}
+            System.out.println("Defailt Statement");
+        }
+        /* Nested if Statement */
+        if (num1 < num2){
+            if (num1 > num2){
+                System.out.println("Negative and greater");
+            } else {
+                System.out.println("Negative and lesser");
+            }
+        } else {
+            if (num1 > num2){
+                System.out.println("Positive and greater");
+            } else {
+                System.out.println("Postive and lesser");
+            }
         }
     }
- 
+}
