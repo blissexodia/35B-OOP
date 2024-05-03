@@ -15,33 +15,41 @@ import java.util.Scanner;
 public class Task2April28th {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a number (0-6) representing a day of the week: ");
+
+        System.out.print("Enter a number (0-6) to represent a day of the week: ");
         int day = scanner.nextInt();
 
-        switch(day) {
+        String dayOfWeek;
+
+        switch (day) {
             case 0:
-                System.out.println("Sunday");
+                dayOfWeek = "Sunday";
                 break;
             case 1:
-                System.out.println("Monday");
+                dayOfWeek = "Monday";
                 break;
             case 2:
-                System.out.println("Tuesday");
+                dayOfWeek = "Tuesday";
                 break;
             case 3:
-                System.out.println("Wednesday");
+                dayOfWeek = "Wednesday";
                 break;
             case 4:
-                System.out.println("Thursday");
+                dayOfWeek = "Thursday";
                 break;
             case 5:
-                System.out.println("Friday");
+                dayOfWeek = "Friday";
                 break;
             case 6:
-                System.out.println("Saturday");
+                dayOfWeek = "Saturday";
                 break;
             default:
-                System.out.println("Invalid input");
+                dayOfWeek = "Invalid day";
+                break;
         }
+
+        System.out.println("The day is: " + dayOfWeek);
+
+        scanner.close();
     }
 }

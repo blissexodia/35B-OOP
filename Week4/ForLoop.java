@@ -1,6 +1,6 @@
 package Week4;
 
-public class ForLoop {
+public class ForLoop{
     public static void main(String[] args) {
         /* For loop takes initialization
          * condition
@@ -16,6 +16,14 @@ public class ForLoop {
         for(int index = 10; index >=0; index --){
             System.out.println("For Index Decrement" + index);
         }
+        /* Nested for loop
+         * Using for loop inside the scope of for loop
+         */
+        for(int outer = 0; outer < 2; outer++){
+            for(int inner = 3; inner > 0; inner--){
+                System.out.println("Inner Index" + inner);
+            }
+            System.out.println("Outer Index" + outer);
     }
-    
+}
 }
