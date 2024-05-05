@@ -14,6 +14,4 @@ public class TaskMay3rd {
                 System.out.println("2 x " + i + " = " + (2 * i));
             }
         }
-    }
-    
-
+}
