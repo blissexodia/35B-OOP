@@ -27,6 +27,6 @@ public class ArrayListClass {
         System.out.println(arrayList1);
 
         // To access .get (index)
-        System.out.println("oth index element " + arrayList1.get(0));
+        System.out.println("0th index element " + arrayList1.get(0));
     }
 }
